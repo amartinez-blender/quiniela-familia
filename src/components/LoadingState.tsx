@@ -1,0 +1,1 @@
+export function LoadingState() { return <div className="grid min-h-screen place-items-center bg-ink"><div className="text-center"><span className="mx-auto block h-10 w-10 animate-spin rounded-full border-2 border-white/10 border-t-pitch"/><p className="mt-4 text-xs font-bold uppercase tracking-[.18em] text-slate-500">Preparando la cancha…</p></div></div>; }

@@ -1,0 +1,2 @@
+import { WifiOff } from "lucide-react";
+export function ErrorState({ onRetry }: { onRetry: () => void }) { return <div className="grid min-h-screen place-items-center bg-ink p-6"><div className="glass-card max-w-md p-8 text-center"><WifiOff className="mx-auto text-red-400"/><h2 className="mt-4 font-display text-xl font-bold">Error de conexión</h2><p className="mt-2 text-sm text-slate-400">No pudimos cargar datos en vivo ni el respaldo local.</p><button onClick={onRetry} className="primary-button mt-6">Reintentar</button></div></div>; }
